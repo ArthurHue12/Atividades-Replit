@@ -48,3 +48,17 @@ int main(void) {
   printf("essa temperatura em celsius é: %d\n", b);
 }
 
+#include <stdio.h>
+
+int main() {
+  int num1, num2, num3, num4, num5, num6, soma;
+
+  printf("Digite seis numeros inteiros: ");
+  scanf("%d %d %d %d %d %d", &num1, &num2, &num3, &num4, &num5, &num6);
+
+    soma = num1 + num2 + num3 + num4 + num5 + num6;
+
+  printf("Aqui esta a soma dos seis numeros inteiros: %d\n", soma);
+}
+
+
