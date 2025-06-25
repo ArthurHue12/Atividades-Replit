@@ -64,3 +64,28 @@
     }
 
 
+# ATV 54
+
+    #include <stdio.h>
+    include <stdlib.h>
+
+    int main() {
+    float media = 0.0;
+    int nota = 0, qtdNota = 0, soma = 0;
+
+    while(nota >= 0){
+    printf("insira uma nota (digite um valor negativo para encerrar o programa); \n");
+    scanf("%d", &nota);
+
+    if(nota >= 0){
+      qtdNota++;
+      soma += nota;
+    }else{
+      printf("Programa encerrado! \n");
+    }
+    }
+
+    media = (soma /qtdNota);
+
+    printf("Media final das notas: %.2f", media);
+    }
