@@ -85,7 +85,22 @@
     }
     }
 
-    media = (soma /qtdNota);
+# ATV 63
+
+    #include <stdio.h>
+
+    int main(){
+    int matriz[2][2] = {
+    {1, 2},
+    {6, 9}
+    };
+    for (int i = 0; i < 2; i++) {
+    for (int j = 0; j < 2; j++) {
+    printf("%d", matriz[i][j]);
+    }
+    printf("\n");
+    }
+    }
 
     printf("Media final das notas: %.2f", media);
     }
